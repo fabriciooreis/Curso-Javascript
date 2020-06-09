@@ -1,0 +1,27 @@
+.conteudo{
+    width: 320px;
+    height: 260px;
+    background-color: rgb(111, 113, 116);
+    text-align: center;
+}
+label{
+    font-size: 18px;
+    padding: 5px;
+}
+.campoValor{
+    width: 65px;
+    height: 22px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#escopoBotao{
+    text-align: center;
+    margin-top: 2px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    margin-top: 8px;
+    font-size: 20px;
+}

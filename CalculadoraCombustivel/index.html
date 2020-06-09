@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="view/css/calculadora.css">
+    
+    <title>Calculadora Flex</title>
+</head>
+<body>
+    
+    <div class="conteudo" id="divPrincipal">
+        <img src ="img/neutro.png" alt="Calcular-Combustivel" id="imgPrincipal">
+        <label>Etanol</label>
+        <input type="number" max="10" min="0" class="campoValor" id="valorEtanol">
+        <label>Gasolina</label>
+        <input type="number" max="10" min="0" class="campoValor" id="valorGasolina">
+        <div id="escopoBotao">
+            <input type="button" value="Calcular" class="btn" id="btnCalcular">
+            <input type="button" value="Limpar" class="btn" id="btnLimpar">
+        </div>
+        
+    </div>
+    <script src="js/calculadora.js"></script>
+</body>
+</html>
