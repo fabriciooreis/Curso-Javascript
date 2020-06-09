@@ -1,0 +1,69 @@
+/*Aparencia geral das cartas*/
+.cartas{
+    width: 160px;
+    height: 240px;
+    border: 2px solid #787878;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.vermelho{
+    color: #ff0000;
+}
+#faceCarta{
+    font-size: xx-large; 
+}
+#desenhoNaipe{
+    font-size: 40px;
+}
+#desenhoNaipeGrande{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 80px;
+}
+#faceCartaBottom{
+    margin-top: 155px;
+    font-size: xx-large;
+}
+#desenhoNaipeBottom{
+    font-size: 40px;
+}
+/*FIM Aparencia geral das cartas*/
+
+/*Coluna 1*/
+.coluna{
+    width: 44px;
+    height: 240px;
+    color: #000000;
+    text-align: center;
+}
+.coluna1{
+    background: #ffffff;
+}
+/*FIM Coluna 1*/
+
+/*COLUNA 2 Centro da carta*/
+.coluna2{
+    background: #ffffff;
+    width: 72px;
+    text-align: center;
+}
+/*FIM do Centro da carta*/
+
+/*Coluna3 Parte direita da carta*/
+.coluna3{
+    background: #ffffff;
+}
+/*FIM Coluna3 Parte direita da carta*/
+
+/*DIV BOTÂO*/
+#botao{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 180px;
+}
+/*FIM DIV BOTÂO*/
+
+
